@@ -7,7 +7,7 @@ import pytz
 app=Flask(_name_)
 @app.route('/htop')
 def htop():
-name="full_Name"
+name="Rajneesh Ravi Raj"
 username=os.getnv("USER")or
 os.getnv("USERNAME")
 ist=pytz.timezone('Asia/Kolkata')
